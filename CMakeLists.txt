@@ -33,7 +33,6 @@ qt_add_executable(CalcWidget
     controllers/ParametersDialog.h controllers/ParametersDialog.cpp
     controllers/SystemTrayIconController.h controllers/SystemTrayIconController.cpp
     controllers/CalcWidget.h controllers/CalcWidget.cpp
-    #controllers/MacOsGlobalHotkey.h controllers/MacOsGlobalHotkey.cpp
     helpers/MathHelper.h helpers/MathHelper.cpp    
     helpers/MacOsHelper.h helpers/MacOsHelper.mm
     main.cpp
@@ -51,14 +50,14 @@ target_include_directories(CalcWidget PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/controllers
     ${CMAKE_CURRENT_SOURCE_DIR}/helpers
     ${CMAKE_CURRENT_SOURCE_DIR}/factories
-    ${CMAKE_CURRENT_SOURCE_DIR}/../QHotkey/QHotkey
+    ${CMAKE_CURRENT_SOURCE_DIR}/QHotkey/QHotkey
 )
 
 target_link_libraries(CalcWidget PRIVATE
     Qt6::Core
     Qt6::Gui
     Qt6::Widgets
-    ${CMAKE_CURRENT_SOURCE_DIR}/../QHotkey/build/libqhotkey.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/QHotkey/build/libqhotkey.a
     "-framework Carbon"
     "-framework ServiceManagement"
     "-framework CoreFoundation"
