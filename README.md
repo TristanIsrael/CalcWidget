@@ -16,6 +16,12 @@ CalcWidget runs quietly in the background and provides a fast way to perform mat
 * 💾 User preferences are persisted between sessions
 * 🔢 Mathematical expressions are evaluated using ExprTk
 
+## Screenshots
+
+![Calculation](misc/screenshots/en_calculation.png)
+![Parameters](misc/screenshots/en_parameters.png)
+![Usage](misc/screenshots/fr_usage.png)
+
 ## Usage
 
 Once CalcWidget is running, use the configured global keyboard shortcut to display the calculator. 
