@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="appicon.icns">images/calcwidget.icns</file>
+    </qresource>
+    <qresource prefix="/i18n">
+        <file alias="fr">i18n/fr.qm</file>
+    </qresource>
+</RCC>

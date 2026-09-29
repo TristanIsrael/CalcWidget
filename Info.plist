@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+    <string>CalcWidget</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+    <string>calcwidget.icns</string>
+	<key>CFBundleIdentifier</key>
+    <string>net.alefbet.calcwidget</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright ¬© 2019-2026, Tristan Israël, Alefbet</string>
+    <key>CFBundleDisplayName</key>
+    <string>Calc Widget</string>
+    <key>CFBundleVersion</key>
+    <string>1.4.1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.4.1</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>ForAppStore</key>
+    <string>yes</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <string>no</string>
+</dict>
+</plist>
